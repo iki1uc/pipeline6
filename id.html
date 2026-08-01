@@ -1,15 +1,23 @@
-<script src="IDkoop.js"></script>
-<script src="IDneutral.js"></script>
-<script src="IDpook.js"></script>
+<pre>
+ID {
+  PIPELINE: 6,
+  NAME: ANKER-KERN,
+  EBENE: Stabil-Vektor-Mechanik,
+  STATUS: aktiv,
 
-<script>
-function showID(mode) {
-    const map = {
-        koop: ID_KOOP,
-        neutral: ID_NEUTRAL,
-        pook: ID_POOK
-    };
-    const id = map[mode];
-    document.getElementById("id-info").innerText = id.info();
+  VEKTOR: X4 (3.csv),
+  FUNKTION: AIR → AIV (6.csv),
+  NORM: FIT/FIX/MISS/RDY/ERROR/HELP (9.csv),
+
+  EBENE1: Multi-Vektor,
+  EBENE2: Aufstieg,
+  EBENE3: Abstieg,
+  EBENE4: Norm-Kern,
+  EBENE5: NC-Kern,
+  EBENE6: ANKER-Kern,
+
+  MATRIX: 3-6-9,
+  SYSTEM: iki1uc,
+  NC: online
 }
-</script>
+</pre>
