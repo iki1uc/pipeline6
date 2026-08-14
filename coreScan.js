@@ -1,20 +1,22 @@
 export function coreScan(){
     return {
-        id: "CORE",
-        core: true,
-        fn: true,
-        stable: true,
-        ready: true,
+        id: "CORE6",
+        axis: "horizontal",
+        spread: 1.0,
+
+        vector: {
+            x: 0,      // Breite
+            y: 0,      // Markt
+            z: 0       // Selbst
+        },
 
         respo360: {
-            id: "RESPO",
+            id: "RESPO6",
             active: true,
             level: 360,
             pulse: Date.now()
         },
 
-        vector: { x:0, y:0, z:0 },
-        source: "RAW",
         stamp: Date.now()
     };
 }
