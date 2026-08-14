@@ -1,7 +1,7 @@
 export const P2 = {
     run(core){
         return {
-            id: "P3:P2",
+            id: "P6:P2",
             phase: "vectorize",
             vector: {
                 x: Math.random(),
