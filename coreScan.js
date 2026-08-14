@@ -18,4 +18,3 @@ export function coreScan(){
         stamp: Date.now()
     };
 }
-
