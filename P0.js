@@ -1,9 +1,9 @@
 export const P0 = {
     run(core){
         return {
-            id: "P3:P0",
+            id: "P6:P0",
             phase: "wake",
-            source: "RAW",
+            vector: { x: 0, y: 0, z: 0 },
             core
         };
     }
